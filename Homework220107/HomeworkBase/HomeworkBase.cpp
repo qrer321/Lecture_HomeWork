@@ -114,6 +114,22 @@ int main()
                 std::cout << std::endl << std::endl;
                 std::cout << "입력한 포트 번호 : " << port << std::endl;
                 system("pause");
+                system("cls");
+
+                port = "";
+                continue;
+            }
+
+            if (65536 < portTemp || 0 > portTemp)
+            {
+                std::cout << "잘못된 포트 번호를 입력하였습니다" << std::endl;
+
+                std::cout << std::endl << std::endl;
+                std::cout << "입력한 포트 번호 : " << port << std::endl;
+                system("pause");
+                system("cls");
+
+                port = "";
                 continue;
             }
 
