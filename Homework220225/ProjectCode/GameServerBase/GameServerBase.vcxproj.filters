@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="PreCompile.h">
+      <Filter>PreCompile</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerObjectBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerNameBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerIocp.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerQueue.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTimeKind.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeInternal.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerUnique.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerObjectPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerSerializer.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerPath.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerDirectory.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerFile.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerMathStruct.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>PreCompile</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerObjectBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerNameBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerIocp.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerQueue.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeInternal.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTimeKind.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerUnique.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerObjectPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerSerializer.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerPath.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerDirectory.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerFile.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PreCompile">
+      <UniqueIdentifier>{3279ae6f-94f3-4e16-ad46-52daa8edb4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{0fd03584-f5e8-44e4-83c5-3270f7c4f145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{7776efeb-d66c-4dd8-ab7b-6c70a602282e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{aca1da05-c5ea-42c1-af80-2d08b97743cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{af7e6402-fc6e-464d-9694-c2e8d5dd71fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{56ff567f-208e-4fd4-b7dd-f316dd8ba98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{549a888c-9c59-481f-9916-7b9ed3852a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{3b17361d-3628-4ed9-9fee-7e1a566ae093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3d1fd21b-c625-46b7-99f6-11267c9271f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
