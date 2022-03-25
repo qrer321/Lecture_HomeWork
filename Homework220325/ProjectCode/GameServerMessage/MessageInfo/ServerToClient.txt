@@ -1,0 +1,17 @@
+|LoginResult-
+EGameServerCode m_Code;
+
+|JoinResult-
+EGameServerCode m_Code;
+
+|ServerDestroy-
+
+|ObjectDestroy-
+int m_ObjectID;
+
+|EnemyUpdate-
+int m_ObjectID;
+int m_EnemyType;
+EEnemyState m_UpdateType;
+FVector m_Pos;
+FVector m_Dir;

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameServerCore.h" />
+    <ClInclude Include="PreCompile.h">
+      <Filter>PreCompile</Filter>
+    </ClInclude>
+    <ClInclude Include="DBQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="NetQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadHandlerBase.h" />
+    <ClInclude Include="GameServerActor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerSection.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerSectionManager.h">
+      <Filter>Object\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServerCore.cpp" />
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>PreCompile</Filter>
+    </ClCompile>
+    <ClCompile Include="NetQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="DBQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadHandlerBase.cpp" />
+    <ClCompile Include="GameServerActor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerSection.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerSectionManager.cpp">
+      <Filter>Object\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PreCompile">
+      <UniqueIdentifier>{16534c76-ae03-4f80-92ff-88013f916d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{004b2e99-6657-4bd6-b0e6-96f858ffcb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{177b70f9-e18f-4366-9a35-d661b0741477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Manager">
+      <UniqueIdentifier>{fa0ea2b8-e149-4213-b222-de4487276e15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
